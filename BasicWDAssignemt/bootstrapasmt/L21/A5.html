@@ -1,0 +1,70 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Themes</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --bs-primary: purple;
+            --bs-success: teal;
+            --bs-warning: orange;
+        }
+
+        .custom-btn {
+            background-color: purple;
+            color: white;
+            border-radius: 20px;
+            padding: 10px 25px;
+            font-weight: bold;
+        }
+
+        .custom-card {
+            border: 2px solid purple;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container mt-4">
+
+        <h2 class="text-center text-danger mb-4">Bootstrap Themes</h2>
+
+        <button class="btn btn-primary mb-3">Get Started</button>
+
+        <br>
+
+        <button class="btn btn-success mb-3">Success Button</button>
+
+        <br>
+
+        <button class="btn btn-warning mb-4">Warning Button</button>
+
+        <hr>
+
+        <h3 class="text-center text-primary mb-4">Custom Components</h3>
+
+        <button class="custom-btn mb-4">Custom Button</button>
+
+        <div class="card custom-card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Web Development</h5>
+                <p class="card-text">
+                    Learn HTML, CSS, JavaScript and Bootstrap.
+                </p>
+                <button class="btn btn-primary">Learn More</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
