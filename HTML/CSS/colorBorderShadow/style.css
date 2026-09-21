@@ -1,0 +1,45 @@
+body{
+    background-color: bisque;
+}
+.main{
+    background-color:rgb(216,217,217)
+}
+
+
+#card
+{
+    background-color: darkgreen;
+    width: 500px;
+    height: 300px;
+    border: 1px solid;
+     
+    h3{
+        color: brown;
+    }
+
+}
+#card p 
+{
+    background-color:blue;
+    color: red;
+    border: 5px groove rgb(0, 0, 0);
+    height: 230px;
+    overflow: auto;
+}
+
+#clickBtn
+{
+    background-color: cadetblue;
+    border: 1px rgb(18, 18, 18);
+    box-shadow: 1px  1px 2px 1px grey;
+}
+
+#clickBtn:hover{
+    background-color: blue;
+    color: chocolate;
+}
+
+#clickBtn:active{
+    background-color: brown;
+    color: darkslateblue;
+}
