@@ -8,6 +8,7 @@
     border: 5px solid black;
     display: inline-block;
     text-align: center;
+    align-items: end;
     margin: 30px;
     padding: 30px;
     border-radius: 20px;
