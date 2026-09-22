@@ -1,0 +1,37 @@
+
+
+ 
+.common
+{
+    width: 200px;
+    height: 250px; 
+    border: 5px solid black;
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+#heading{
+    width: 100%;
+    height: 70px;
+    background: #3c4401;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+#Basicid
+{
+    background: #b78080;
+
+}
+#listid{
+    background: #aacb5b;
+}
+#Tableid{
+    background: #72c666d1;
+}
+#formid{
+    background: #4a86a7;
+}

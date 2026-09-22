@@ -2,3 +2,18 @@
 *{
     background-color:#E3F2FD;
 }
+.common
+{
+    width: 200px;
+    height: 250px; 
+    border: 5px solid black;
+    display: inline-block;
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    
+}
+#Basicid
+{
+    background: #b78080;

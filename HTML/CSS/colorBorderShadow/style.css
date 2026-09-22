@@ -1,4 +1,4 @@
-body{
+/* body{
     background-color: bisque;
 }
 .main{
@@ -42,4 +42,51 @@ body{
 #clickBtn:active{
     background-color: brown;
     color: darkslateblue;
+} */
+
+
+
+
+body{
+    background: #084f57;
 }
+
+.main{
+    height: 100px;
+    width: 100%;
+
+    background: #011c48;
+    overflow: auto;
+
+}
+#card {
+    height: 100px;
+    width: 100%;
+
+    background: #b37b0c;
+    overflow: auto;
+}
+
+#card  p {
+    height: 100px;
+    width: 100%;
+
+    background: #8a3c3c;
+    overflow: auto;
+}
+ #Btn
+ {
+    background: #6ab822;
+    border: 5px solid burlywood;
+    border-radius: 50px;
+
+
+ }
+ #Btn:hover
+ {
+   background: #8a0e8465;
+ }
+ #Btn:active
+ {
+    background: #14812398;
+ }
