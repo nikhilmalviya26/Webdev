@@ -1,0 +1,41 @@
+
+ 
+.personal-outer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+     margin: 10px;
+     row-gap: 10px;
+     
+
+}
+
+legend{
+   
+    margin:auto;
+}
+
+.contactouter{
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+     margin: 10px;
+     row-gap: 10px;
+     
+}
+.Qualification-outer{
+    display: grid;
+    grid-template-columns: auto auto auto auto  auto auto;
+    row-gap: 10px;
+
+}
+
+.lang-outer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 10px;
+}
+.Identification-class{
+    display: grid;
+    grid-template-columns: auto auto ;
+    row-gap: 10px;
+}
