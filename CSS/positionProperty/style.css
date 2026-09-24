@@ -1,0 +1,36 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#header{
+    background: skyblue;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+
+
+}
+#menu-items{
+    display: flex;
+   column-gap: 15px;
+   align-items: center;
+   
+   button
+   {
+    padding: 3px 10px;
+    background: rgb(39, 172, 63);
+    border: 2px solid rgb(20, 13, 13);
+   }
+}
+
+#ask-me{
+    position:fixed;
+    bottom: 30px;
+    right: 40px;
+    border: 5px solid rgb(13, 13, 12);
+    background: #0d59ca;
+}
