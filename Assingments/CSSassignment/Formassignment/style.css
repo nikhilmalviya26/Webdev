@@ -36,6 +36,6 @@ legend{
 }
 .Identification-class{
     display: grid;
-    grid-template-columns: auto auto ;
+    grid-template-columns: auto auto 7;
     row-gap: 10px;
 }
