@@ -1,11 +1,45 @@
-#mail{
- 
-    border:none;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
 }
 
-input{
-    border: none ;
-    font-size: 20px;
-    text-decoration: underline;
-    margin-top: 2px;
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(165, 165, 169);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.box1{
+    height: 400px;
+    width: 350px;
+    background-color:white ;
+   
+
+
+
+
+
+    input{
+    
+        border: none;
+    }
+}
+.box2{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+    gap: 10px;
+    ;
 }
