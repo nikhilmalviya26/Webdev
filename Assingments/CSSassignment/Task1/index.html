@@ -1,72 +1,118 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Loginpage</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+  </head>
 
-<body>
+  <body>
+    <div class="main">
+      <div class="login-card">
+        <h1>Login</h1>
+        <form>
+          <div class="input-box">
+            <i class="ri-mail-line"></i>
+            <input
+              type="email"
+              name="email"
+              id=""
+              placeholder="Enter your email"
+            />
+          </div>
 
+          <div class="input-box">
+            <i class="ri-lock-line"></i>
+            <input
+              type="password"
+              name="password"
+              id=""
+              placeholder="Confirm a password"
+            />
+            <i class="ri-eye-line"></i>
+          </div>
 
-    <div id="main">
+          <div class="checkbox">
+            <label> <input type="checkbox" />Remember me </label>
 
+            <a href="#">Forget Password</a>
+          </div>
 
-        <div class="box1">
+          <div >
+            <button class="button">Login now</button>
+          </div>
+          <div class="sign-up">
+            <p>Don't have an account ?<a href="">Signup now</a></p>
+          </div>
+        </form>
+      </div>
 
-             <h1>Login</h1>
-              <input type="email" name="email" id="" placeholder="Enter your email">
-              <input type="password" name="password" id="" placeholder="Confirm a password">
-              <input type="checkbox" name="" id=""  placeholder="Remember me"> 
-              <button>Login now</button>
-              <p>Don't have an account <a href="">Signup now</a></p>
-            
-        </div>
+      <div class="registration-card">
+        <h1>Registration</h1>
+        <form>
+          <div class="input-box">
+            <i class="ri-user-line"></i>
+            <input
+              type="text"
+              name="name"
+              id=""
+              placeholder="Enter your name"
+            />
+          </div>
 
+          <div class="input-box">
+            <i class="ri-mail-line"></i>    
+            <input
+              type="email"
+              name="email"
+              id=""
+              placeholder="Enter your email"
+            />
+          </div>
 
-        <div class="box2">
+          <div class="input-box">
+            <i class="ri-lock-line"></i>
+            <input
+              type="password"
+              name="password"
+              id=""
+              placeholder="Create a password"
+            />
+            <i class="ri-eye-line"></i>
+          </div>
 
-             <h1>Registration</h1>
-            <input type="text" name="name" id="" placeholder="Enter your name">
-            <input type="email" name="email" id="" placeholder="Enter your email">
-            <input type="password" name="password" id="" placeholder="Create a password">
-            <input type="password" name="password" id="" placeholder="Confirm a password">
-            <input type="checkbox" name="" id="" placeholder="I accept all terms & conditions">
+          <div class="input-box">
+            <i class="ri-lock-line"></i>
+            <input
+              type="password"
+              name="password"
+              id=""
+              placeholder="Confirm a password"
+            />
+            <i class="ri-eye-line"></i>
+          </div>
 
-            <button>Register Now</button>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="" id="" /> I accept all terms &
+              condition.
+            </label>
+          </div>
+
+          <div >
+            <button class="button">Register Now</button>
+          </div>
+
+          <div class="sign-up">
             <p>Already have an account? <a href="">Login now</a></p>
-
-        </div>
+          </div>
+        </form>
+      </div>
     </div>
-
-
-
-    <!-- <fieldset id="outer">
-       <fieldset id="Login">
-        <div>
-            <h1>Login</h1>
-              <input type="email" name="email" id="" placeholder="Enter your email">
-              <input type="password" name="password" id="" placeholder="Confirm a password">
-              <input type="checkbox" name="" id=""  placeholder="Remember me"> 
-              <button>Login now</button>
-              <p>Don't have an account <a href="">Signup now</a></p>
-        </div>
-        </fieldset>
-        <fieldset id="Register">
-        <div>
-            <h1>Registration</h1>
-            <input type="text" name="name" id="" placeholder="Enter your name">
-            <input type="email" name="email" id="" placeholder="Enter your email">
-            <input type="password" name="password" id="" placeholder="Create a password">
-            <input type="password" name="password" id="" placeholder="Confirm a password">
-            <input type="checkbox" name="" id="" placeholder="I accept all terms & conditions">
-
-            <button>Register Now</button>
-            <p>Already have an account? <a href="">Login now</a></p>
-        </div>
-        </fieldset>
-    </fieldset> -->
-</body>
-
+  </body>
 </html>

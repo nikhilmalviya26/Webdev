@@ -2,44 +2,75 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: black;
+ 
 }
 
-html,body{
-    height: 100%;
-    width: 100%;
-    
+
+.main
+{
+   background: #070c9c;
+   height: 100vh;
+   width: 100%;     
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+
 }
-#main{
-    height: 100%;
-    width: 100%;
-    background-color: rgb(165, 165, 169);
+
+
+.login-card , .registration-card{
+    /* width: 350px; */
+    background: white;
+    border: none;
+    padding: 25px;
+    border-radius: 8px;
+    font-family: sans-serif;
+    
+
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.input-boX{
+    border:none;
+    border-bottom: 1px solid black;
+    padding: 10px;
+    outline: none;
+   
+}
+
+.input-box input{
+    border:none;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    outline: none;
+    font-size: 17px;
+    
+   
+}
+
+.checkbox{
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
+    gap: 30px;
+    margin-top: 10px;
 
 }
 
-.box1{
-    height: 400px;
-    width: 350px;
-    background-color:white ;
-   
-
-
-
-
-
-    input{
+.button{
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 80px;
+    margin: 20px;
+    background: #168de2;
+    color: white;
     
-        border: none;
-    }
 }
-.box2{
-    height: 400px;
-    width: 350px;
-    background-color: white;
-    gap: 10px;
-    ;
+
+.sign-up{
+    text-align: center;
 }
+
