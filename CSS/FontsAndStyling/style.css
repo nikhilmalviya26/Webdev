@@ -1,0 +1,25 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.subheading{
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+#description span{
+    text-decoration: wavy;
+    font-weight: 400;
+}
+
+.main{
+    margin: 10px;
+}
