@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#hw {
+    width: 400px;
+    height: 2rem;
+    border: 1px solid #000;
+}
+
+#hw{
+    width: 400px;
+    height: 2.5rem;
+    border: 1px solid black;
+    overflow: hidden;
+    background-color: green;
+    text-wrap-mode: nowrap;
+    transition: 
+           width 5s;
+}
+
+#hw:hover{
+
+    width: 600px;
+    background: red;
+    transition: 
+        width 5s;
+}
+
+#welcome{
+
+    color: red;
+}
+
+#welcome::after{
+ 
+    content: "❤️";
+
+}
+
+.d::before{
+    content: 🤷‍♂️;
+}
