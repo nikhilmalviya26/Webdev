@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Cutive+Mono&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+CA+Guides&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.playwrite-ca-guides-regular {
+  font-family: "Playwrite CA Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#hero{
+    #bg-img-1{
+        height: 90vh;
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+
+
+a{
+    text-decoration: none;
+}
