@@ -1,9 +1,4 @@
-```css
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 
 :root {
     --p: #4f46e5;
