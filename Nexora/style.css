@@ -717,9 +717,6 @@ small {
     color: var(--dark);
 }
 
-
-
-
 .cta {
     background: linear-gradient(135deg, var(--p), var(--p2));
     color: #e0e7ff;
