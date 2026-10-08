@@ -160,10 +160,7 @@ small {
     margin-right: 8px;
 }
 
-
-/* =========================
-   Header
-========================= */
+/* header */
 
 .site-header {
     position: sticky;
@@ -251,9 +248,7 @@ small {
 }
 
 
-/* =========================
-   Hero Section
-========================= */
+/*Hero Section */
 
 .hero {
     padding: 80px 0 60px;
@@ -435,9 +430,6 @@ small {
 }
 
 
-/* =========================
-   Logos
-========================= */
 
 .logos {
     padding: 40px 0;
@@ -468,9 +460,7 @@ small {
 }
 
 
-/* =========================
-   General Sections
-========================= */
+
 
 .section {
     padding: 96px 0;
@@ -550,9 +540,8 @@ small {
 }
 
 
-/* =========================
-   About Section
-========================= */
+
+   /* About Section */
 
 .about-grid {
     display: grid;
@@ -633,9 +622,7 @@ small {
 }
 
 
-/* =========================
-   Steps
-========================= */
+
 
 .step {
     padding: 10px 8px;
@@ -694,9 +681,6 @@ small {
 }
 
 
-/* =========================
-   Testimonials / Quotes
-========================= */
 
 .quote {
     margin: 0;
@@ -734,9 +718,7 @@ small {
 }
 
 
-/* =========================
-   CTA Section
-========================= */
+
 
 .cta {
     background: linear-gradient(135deg, var(--p), var(--p2));
@@ -755,9 +737,7 @@ small {
 }
 
 
-/* =========================
-   Footer
-========================= */
+/* Footer */
 
 .site-footer {
     background: var(--dark);
@@ -858,9 +838,7 @@ small {
 }
 
 
-/* =========================
-   Responsive Design
-========================= */
+/*Responsive Design */
 
 @media (max-width: 1024px) {
 
