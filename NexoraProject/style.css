@@ -23,7 +23,15 @@ html,body{
       padding-top: 10px;
       align-items: center;
       background-color: #FCFCFF;
-      box-shadow: 0 2px 12px rgba(20, 30, 80, 0.08)
+      box-shadow: 0 2px 12px rgba(20, 30, 80, 0.08);
+        position: fixed;
+         width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0;
+       z-index: 100;
+         
 }
 
 .active{
@@ -81,5 +89,346 @@ html,body{
 
 
 
+/* Hero section */
+
+
+
+.hero-section {
+    width: 100%;
+    font-size:xx-small;
+    padding: 50px 7.4%;
+    background: #f1f2ff;
+    padding-top: 120px;
+}
+
+.trusted p {
+    color: #2160ff;
+    font-size: 18px;
+    font-weight:bolder;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.heading-build {
+    width: 52%;
+}
+
+.heading-build p {
+    font-size: 48px;
+    font-weight: bold;
+    color: #10183b;
+}
+
+.heading-build span {
+    color: #2160ff;
+}
+
+.detail {
+    width: 43%;
+    margin-top: 30px;
+}
+
+.detail p {
+    font-size: 20px;
+    color: #64748b;
+    line-height: 1.5;
+}
+
+
+.button-start {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.button-start button {
+    padding: 18px 35px;
+    border: none;
+    border-radius: 10px;
+    background: #3158e8;
+    transition: 0.3s;
+}
+
+.button-start button a {
+    color: white;
+    font-size: 18px;
+}
+
+#Explore {
+    background: white;
+    border: 1px solid #ddd;
+}
+
+#Explore a {
+    color: #10183b;
+}
+
+.button-start button:hover {
+    transform: translateY(-3px);
+    cursor: pointer;
+}
+
+
+.img-review {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    
+   
+}
+
+.img-review img {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+}
+.round-img img {
+    margin-left: -10px;
+}
+
+.review p {
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.right {
+    position: absolute;
+    top: 200px;
+    right: 12%;
+    width: 32%;
+}
+
+.project {
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    background: white;
+    padding: 22px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+.project h3,
+.roi h3 {
+    color: #10183b;
+    margin-bottom: 8px;
+}
+
+.project p,
+.roi p {
+    color: #64748b;
+}
+
+.dashboard {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    min-height: 465px;
+    box-shadow: 0 10px 30px #ddd;
+}
+
+.live {
+    background: #eef2ff;
+    color: #2160ff;
+    padding: 10px 18px;
+    border-radius: 25px;
+    width: fit-content;
+    margin-left: auto;
+}
+
+.line {
+    height: 13px;
+    width: 95%;
+    background: #eef2ff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.line.small {
+    width: 65%;
+    margin-top: 15px;
+}
+
+.stats {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.box {
+    width: 50%;
+    background: #eef2ff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.box h2 {
+    color: #10183b;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.box p {
+    color: #64748b;
+}
+
+.box:last-child {
+    background: #f4efff;
+}
+
+.bottom {
+    height: 85px;
+    background: #f3efff;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.roi {
+    position: absolute;
+    right: -30px;
+    bottom: -30px;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px #ddd;
+}
+
+
+/* css compnay */
+.companies {
+    padding: 35px 7%;
+    background: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.company-heading {
+    text-align: center;
+    margin-bottom: 35px;
+    color: #64748b;
+    letter-spacing: 2px;
+}
+
+.company-list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #b4bdcc;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.company-list div {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.company-list div:hover {
+    color: #2160ff;
+    transform: translateY(-3px);
+}
+
+
+/* Section 4 css */
+
+.What-services {
+    margin: 0 16px;
+    padding: 100px 6.3% 110px;
+    background: #f6f8fc;
+}
+
+.service-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+   
+}
+ .tag{
+     
+        color: #2160ff;
+        font-size: 12px ;
+        margin: 0px 0px 16px;
+        padding: 6.4px 16px;
+
+ }
+
+.service-heading h1 {
+    font-size: 35px;
+    font-weight:bolder;
+    margin: 10px 0;
+    color: #10183b;
+}
+
+.desc {
+    font-size: 15px;
+    line-height: 1.5;
+    max-width: 750px;
+    color: #64748b;
+}
+
+.service-heading a {
+    color: #2160ff;
+    text-decoration: none;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+/* <!-- Service Cards --> */
+
+
+
+.service-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin: 0 6.3% 80px;
+}
+
+.service-box {
+    width: 25%;
+    padding: 50px 35px;
+    background: white;
+    border: 1px solid #e0e4eb;
+    border-radius: 18px;
+}
+
+.icon {
+    background: #eef2ff;
+    color: #2160ff;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 12px;
+    font-size: 25px;
+}
+
+.service-box h3 {
+    color: #10183b;
+    font-size: 23px;
+    margin: 25px 0 15px;
+}
+
+.service-box p {
+    color: #64748b;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.service-box a {
+    display: inline-block;
+    color: #2160ff;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.service-box:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+    cursor: pointer;
+}
 
 
