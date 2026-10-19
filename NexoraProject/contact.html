@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./CSS/contact.css">
+</head>
+<body>
+     <!-- header nk  -->
+    <div class="main-box">
+      <div id="nexora">
+        <a href="#index.html">NEXORA <span>.</span></a>
+      </div>
+      <div id="box-2">
+        <a id="nav-links" class="active" href="index.html">Home</a>
+        <a id="nav-links" href="about.html">About</a>
+        <a id="nav-links" href="services.html">Services</a>
+        <a id="nav-links" href="portfolio.html">Portfolio</a>
+        <a id="nav-links" href="blog.html">Blog</a>
+        <a id="nav-links" href="pricing.html">Pricing</a>
+        <a id="nav-links" href="contact.html">Contact</a>
+        <button id="get-started">
+          <a href="contact.html">Get Started</a>
+        </button>
+      </div>
+    </div>
+
+
+<!-- About Hero -->
+<div class="about-banner">
+    <h1>About Nexora</h1>
+    <p><a href="index.html">Home</a> / <span>Contact</span></p>
+</div>
+    
+
+
+<!-- Contact Cards -->
+<div class="contact-cards">
+
+    <div class="contact-card">
+        <div class="contact-icon">♧</div>
+        <h3>Visit Us</h3>
+        <p>148 Innovation Drive, Suite 400</p>
+        <p>San Francisco, CA 94107</p>
+    </div>
+
+    <div class="contact-card">
+        <div class="contact-icon purple-icon">✉</div>
+        <h3>Email Us</h3>
+        <p>General inquiries:</p>
+        <a href="mailto:hello@nexora.com">hello@nexora.com</a>
+    </div>
+
+    <div class="contact-card">
+        <div class="contact-icon green-icon">♧</div>
+        <h3>Call Us</h3>
+        <p>Mon – Fri, 9am – 6pm PST</p>
+        <a href="tel:+14155550182">+1 (415) 555-0182</a>
+    </div>
+
+</div>
+
+<!-- Contact Form and Office Hours -->
+<div class="contact-section">
+
+    <div class="contact-form">
+        <span class="contact-tag">• SEND A MESSAGE</span>
+        <h2>Tell us about your project</h2>
+
+        <form id="contactForm">
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Work Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="company">Company</label>
+                    <input type="text" id="company" name="company">
+                </div>
+
+                <div class="form-group">
+                    <label for="budget">Estimated Budget</label>
+                    <select id="budget" name="budget">
+                        <option value="">Select a range</option>
+                        <option>$1,000 - $5,000</option>
+                        <option>$5,000 - $10,000</option>
+                        <option>$10,000 - $25,000</option>
+                        <option>$25,000+</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="service">Service Needed</label>
+                <select id="service" name="service" required>
+                    <option value="">Select a service</option>
+                    <option>Product Strategy</option>
+                    <option>UI/UX Design</option>
+                    <option>Web Development</option>
+                    <option>Cloud &amp; DevOps</option>
+                    <option>Growth Marketing</option>
+                    <option>QA &amp; Security Audits</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="details">Project Details</label>
+                <textarea id="details" name="details" placeholder="Tell us a bit about your goals, timeline, and anything else we should know." required></textarea>
+            </div>
+
+            <div class="agree">
+                <input type="checkbox" id="agree" required>
+                <label for="agree">I agree to the <a href="#">Privacy Policy</a> and consent to being contacted about my inquiry.</label>
+            </div>
+
+            <button type="submit" class="send-button">Send Message ➤</button>
+
+        </form>
+    </div>
+
+    <div class="contact-info">
+
+        <div class="contact-map">
+            <iframe
+                src="https://maps.google.com/maps?q=San%20Francisco%2C%20California&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                title="Map of San Francisco"
+                loading="lazy">
+            </iframe>
+        </div>
+
+        <div class="office-hours">
+            <div class="clock-icon">◷</div>
+            <h3>Office Hours</h3>
+
+            <div class="hours-row">
+                <strong>Monday – Friday</strong>
+                <span>9:00 AM – 6:00 PM</span>
+            </div>
+
+            <div class="hours-row">
+                <strong>Saturday</strong>
+                <span>10:00 AM – 2:00 PM</span>
+            </div>
+
+            <div class="hours-row">
+                <strong>Sunday</strong>
+                <span>Closed</span>
+            </div>
+
+            <p>All times Pacific Standard Time (PST).</p>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- FAQ -->
+<div class="contact-faq">
+
+    <div class="contact-faq-heading">
+        <span class="contact-tag">• BEFORE YOU REACH OUT</span>
+        <h2>Quick answers</h2>
+    </div>
+
+    <div class="contact-questions">
+
+        <details class="contact-question" open>
+            <summary>How soon will I hear back?</summary>
+            <p>We respond to all inquiries within one business day, usually much sooner.</p>
+        </details>
+
+        <details class="contact-question">
+            <summary>Do I need a fully scoped brief?</summary>
+            <p>No. Just share your idea and goals. We can help you plan the next steps.</p>
+        </details>
+
+        <details class="contact-question">
+            <summary>Can we sign an NDA before discussing details?</summary>
+            <p>Yes. We can discuss signing a non-disclosure agreement before sharing confidential information.</p>
+        </details>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+<div class="footer">
+
+    <div class="footer-content">
+
+        <div>
+            <h4>Nexora</h4>
+            <p>We help ambitious SaaS and tech companies design, build and scale digital products that customers love.</p>
+            <p>𝕏 &nbsp; ◎ &nbsp; ▶ &nbsp; in</p>
+        </div>
+
+        <div>
+            <h4>COMPANY</h4>
+            <p><a href="about.html">About Us</a></p>
+            <p><a href="services.html">Services</a></p>
+            <p><a href="portfolio.html">Portfolio</a></p>
+            <p><a href="blog.html">Blog</a></p>
+            <p><a href="contact.html">Careers</a></p>
+        </div>
+
+        <div>
+            <h4>SERVICES</h4>
+            <p><a href="services.html">Product Strategy</a></p>
+            <p><a href="services.html">UI/UX Design</a></p>
+            <p><a href="services.html">Web Development</a></p>
+            <p><a href="services.html">Cloud & DevOps</a></p>
+            <p><a href="services.html">Growth Marketing</a></p>
+        </div>
+
+        <div>
+            <h4>STAY IN THE LOOP</h4>
+            <p>Get product updates and insights from our team, once a month.</p>
+            <input type="email" placeholder="Your email">
+            <button>➤</button>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 Nexora. All rights reserved. Built with care.</p>
+
+        <div>
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Service</a>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    let name = document.getElementById("fullname").value;
+    let email = document.getElementById("email").value;
+    let company = document.getElementById("company").value;
+    let budget = document.getElementById("budget").value;
+    let service = document.getElementById("service").value;
+    let details = document.getElementById("details").value;
+
+    console.log("Name:", name);
+    console.log("Email:", email);
+    console.log("Company:", company);
+    console.log("Budget:", budget);
+    console.log("Service:", service);
+    console.log("Project Details:", details);
+
+    console.log("Form submitted successfully!");
+});
+</script>
+
+
+
+</body>
+</html>

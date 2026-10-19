@@ -510,6 +510,7 @@ html,body{
     border-radius: 10px;
     font-size: 18px;
     cursor: pointer;
+    
 }
 
 .about-btn:hover {
@@ -788,6 +789,28 @@ html,body{
     margin-top: 18px;
 }
 
+.client {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.client img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.client h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.client p {
+    font-size: 14px;
+}
 
 
 .cta {
