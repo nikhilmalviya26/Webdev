@@ -51,4 +51,18 @@ phone.forEach((pt) => {
     
 });  ///print all values
 
+phone.forEach((pt) =>{
+    console.log(pt.titile);
+    
+});
 
+
+
+//add data
+function add_Data(item){
+    const mycard = document.createElement("div");
+
+    mycard.innerHTML = `
+    
+    `
+}
