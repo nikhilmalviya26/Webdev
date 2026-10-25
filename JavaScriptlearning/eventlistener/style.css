@@ -1,0 +1,29 @@
+#EventBubbling {
+  border: 1px solid #000;
+  width: 500px;
+
+  div {
+    border: 2px solid #000;
+    padding: 20px;
+  }
+}
+
+#EventCapturing {
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+
+  padding: 20px;
+}
+
+#EventDelegation {
+  border: 1px solid #000;
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  div {
+    border: 1px solid #000;
+    padding: 20px;
+  }
+}
