@@ -22,4 +22,4 @@ LoginForm.addEventListener("submit",(e)=>
    //short
    LoginForm.forEach((value,key)) => console.log(key,":", value));
    LoginForm.forEach((value,key) => (testFormDataJSON[key] = value));
-}
+});
