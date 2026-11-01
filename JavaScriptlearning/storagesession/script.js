@@ -55,4 +55,7 @@ form.addEventListener("submit", function(e) {
         console.log("Invalid Name");
     }
 
+    console.log(/^[A-Za-z]+$/.test(name)); //short way
+    
+
 });
